@@ -27,7 +27,7 @@ A complete, production-ready web intelligence and market watch platform. This sy
 - **Backend**: Python 3.11, FastAPI, MongoDB (Motor), Redis, RQ (Workers).
 - **Frontend**: React 18, TypeScript, TailwindCSS, shadcn/ui, Recharts.
 - **Infrastructure**: Docker Compose, Nginx.
-- **AI/ML**: Groq API (Llama 3), spaCy, scikit-learn, VADER.
+- **AI/ML**: Google Gemini 1.5 Pro , spaCy, scikit-learn, VADER.
 
 ## Quick Start
 
@@ -42,7 +42,7 @@ A complete, production-ready web intelligence and market watch platform. This sy
    ```bash
    cp .env.example .env
    ```
-   Edit `.env` and add your `GROQ_API_KEY`.
+   Edit `.env` and add your `Google Gemini 1.5 Pro_API_KEY`.
 
 3. **Run with Docker**
    ```bash
